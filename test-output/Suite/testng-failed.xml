@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="jbk.log.traning">
+        <methods>
+          <include name="hello"/>
+        </methods>
+      </class> <!-- jbk.log.traning -->
+      <class name="frontpage.LoginPageTest">
+        <methods>
+          <include name="linkcheck"/>
+          <include name="enter_url"/>
+          <include name="loginwith_validata"/>
+          <include name="menu"/>
+          <include name="adduser"/>
+          <include name="end"/>
+          <include name="drop"/>
+          <include name="getbrowser"/>
+          <include name="loginwith_invalidata"/>
+          <include name="button"/>
+          <include name="enterdata"/>
+          <include name="pop"/>
+        </methods>
+      </class> <!-- frontpage.LoginPageTest -->
+      <class name="jbk.log.onlinejbk">
+        <methods>
+          <include name="linkchecker"/>
+        </methods>
+      </class> <!-- jbk.log.onlinejbk -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
